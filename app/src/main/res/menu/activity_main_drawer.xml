@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homepage"
+            android:iconTint="@color/black_text_color"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_documents"
+            android:iconTint="@color/black_text_color"
+            android:icon="@drawable/ic_insert_black"
+            android:title="@string/documents" />
+        <item
+            android:id="@+id/nav_yourtrips"
+            android:icon="@drawable/ic_history_vector"
+            android:iconTint="@color/black_text_color"
+            android:title="Ride History" />
+        <item
+            android:id="@+id/nav_refer"
+            android:icon="@drawable/ic_gift"
+            android:iconTint="@color/colorPrimary"
+            android:title="Referral bonus" />
+        <item
+            android:id="@+id/nav_earnings"
+            android:iconTint="@color/black_text_color"
+            android:icon="@drawable/ic_money_bag"
+            android:visible="false"
+            android:title="@string/earnings" />
+        <item
+            android:id="@+id/nav_wallet"
+            android:iconTint="@color/black_text_color"
+            android:icon="@drawable/ic_summary"
+            android:title="@string/earnings" />
+        <item
+            android:id="@+id/nav_rating"
+            android:icon="@drawable/ic_rating_star"
+            android:iconTint="@color/black_text_color"
+            android:title="Rating" />
+        <item
+            android:id="@+id/driver_wallet"
+            android:iconTint="@color/black_text_color"
+            android:icon="@drawable/ic_wallet_vector"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:iconTint="@color/black_text_color"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_option"
+            android:iconTint="@color/black_text_color"
+            android:visible="false"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:iconTint="@color/black_text_color"
+            android:title="@string/logout" />
+    </group>
+
+</menu>
